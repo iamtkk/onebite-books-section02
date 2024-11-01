@@ -18,8 +18,7 @@ const Book = ({
   if (!book) {
     return <div>Book not found</div>;
   }
-  const { id, title, subTitle, description, author, publisher, coverImgUrl } =
-    book;
+  const { title, subTitle, description, author, publisher, coverImgUrl } = book;
   return (
     <div className={styles.container}>
       <div
